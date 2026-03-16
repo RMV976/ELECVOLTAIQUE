@@ -284,7 +284,11 @@ if (galleryItems.length > 0) {
 }
 
 // ============================================================
-// SMOOTH SECTION SCROLLING INDICATOR
+// DYNAMIC COPYRIGHT YEAR
+// ============================================================
+document.querySelectorAll('.copyright-year').forEach(el => {
+  el.textContent = new Date().getFullYear();
+});
 // ============================================================
 const progressBar = document.createElement('div');
 progressBar.style.cssText = `
