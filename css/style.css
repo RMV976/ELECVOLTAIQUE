@@ -5,21 +5,21 @@
 
 /* ---- Variables CSS ---- */
 :root {
-  --primary: #0a2a5e;
-  --primary-light: #1a3f8f;
-  --accent: #f5a623;
-  --accent-dark: #d4891a;
-  --green: #27ae60;
-  --green-dark: #1e8449;
-  --text-dark: #1a1a2e;
-  --text-gray: #555e6e;
-  --text-light: #8898aa;
-  --bg-light: #f7f9fc;
+  --primary: #0b6e31;
+  --primary-light: #157a3a;
+  --accent: #1565c0;
+  --accent-dark: #0d47a1;
+  --green: #2ecc71;
+  --green-dark: #27ae60;
+  --text-dark: #1a1f1c;
+  --text-gray: #4b5a52;
+  --text-light: #7a8d82;
+  --bg-light: #f4f7f5;
   --bg-white: #ffffff;
-  --border: #e2e8f0;
-  --shadow-sm: 0 2px 8px rgba(10, 42, 94, 0.08);
-  --shadow-md: 0 8px 30px rgba(10, 42, 94, 0.12);
-  --shadow-lg: 0 20px 60px rgba(10, 42, 94, 0.18);
+  --border: #dde8e2;
+  --shadow-sm: 0 2px 8px rgba(11, 110, 49, 0.08);
+  --shadow-md: 0 8px 30px rgba(11, 110, 49, 0.12);
+  --shadow-lg: 0 20px 60px rgba(11, 110, 49, 0.18);
   --radius: 12px;
   --radius-lg: 20px;
   --transition: all 0.3s ease;
@@ -134,12 +134,12 @@ ul {
 .btn-primary {
   background: linear-gradient(135deg, var(--accent), var(--accent-dark));
   color: white;
-  box-shadow: 0 4px 20px rgba(245, 166, 35, 0.4);
+  box-shadow: 0 4px 20px rgba(21, 101, 192, 0.4);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(245, 166, 35, 0.5);
+  box-shadow: 0 8px 30px rgba(21, 101, 192, 0.5);
 }
 
 .btn-outline {
@@ -156,12 +156,12 @@ ul {
 .btn-blue {
   background: linear-gradient(135deg, var(--primary-light), var(--primary));
   color: white;
-  box-shadow: 0 4px 20px rgba(10, 42, 94, 0.3);
+  box-shadow: 0 4px 20px rgba(11, 110, 49, 0.3);
 }
 
 .btn-blue:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(10, 42, 94, 0.4);
+  box-shadow: 0 8px 30px rgba(11, 110, 49, 0.4);
 }
 
 .btn-green {
@@ -276,7 +276,7 @@ header.scrolled {
   align-items: center;
   justify-content: center;
   font-size: 1.4rem;
-  box-shadow: 0 4px 15px rgba(245, 166, 35, 0.4);
+  box-shadow: 0 4px 15px rgba(21, 101, 192, 0.4);
 }
 
 .logo-text {
@@ -318,7 +318,7 @@ nav a {
 
 nav a:hover, nav a.active {
   color: var(--accent);
-  background: rgba(245, 166, 35, 0.1);
+  background: rgba(21, 101, 192, 0.1);
 }
 
 .nav-cta {
@@ -326,13 +326,13 @@ nav a:hover, nav a.active {
   color: white !important;
   padding: 10px 20px !important;
   border-radius: 8px !important;
-  box-shadow: 0 4px 15px rgba(245, 166, 35, 0.4);
+  box-shadow: 0 4px 15px rgba(21, 101, 192, 0.4);
 }
 
 .nav-cta:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(245, 166, 35, 0.5) !important;
-  background: rgba(245, 166, 35, 0.1) !important;
+  box-shadow: 0 6px 20px rgba(21, 101, 192, 0.5) !important;
+  background: rgba(21, 101, 192, 0.1) !important;
   color: white !important;
 }
 
@@ -370,7 +370,7 @@ nav a:hover, nav a.active {
    ============================================================ */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0a2a5e 0%, #1a3f8f 40%, #0d3480 70%, #071d4a 100%);
+  background: linear-gradient(135deg, #0b6e31 0%, #157a3a 40%, #0e8040 70%, #074d22 100%);
   position: relative;
   display: flex;
   align-items: center;
@@ -382,9 +382,9 @@ nav a:hover, nav a.active {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 20% 50%, rgba(245, 166, 35, 0.12) 0%, transparent 50%),
+    radial-gradient(circle at 20% 50%, rgba(21, 101, 192, 0.12) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(39, 174, 96, 0.08) 0%, transparent 40%),
-    radial-gradient(circle at 60% 80%, rgba(26, 63, 143, 0.3) 0%, transparent 50%);
+    radial-gradient(circle at 60% 80%, rgba(21, 122, 58, 0.3) 0%, transparent 50%);
 }
 
 .hero-pattern {
@@ -510,8 +510,8 @@ nav a:hover, nav a.active {
 }
 
 .service-mini-item:hover {
-  background: rgba(245, 166, 35, 0.15);
-  border-color: rgba(245, 166, 35, 0.3);
+  background: rgba(21, 101, 192, 0.15);
+  border-color: rgba(21, 101, 192, 0.3);
 }
 
 .service-mini-icon {
@@ -654,7 +654,7 @@ nav a:hover, nav a.active {
   width: 64px;
   height: 64px;
   border-radius: 16px;
-  background: linear-gradient(135deg, rgba(10, 42, 94, 0.08), rgba(26, 63, 143, 0.12));
+  background: linear-gradient(135deg, rgba(11, 110, 49, 0.08), rgba(21, 122, 58, 0.12));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -730,7 +730,7 @@ nav a:hover, nav a.active {
   right: -40px;
   width: 200px;
   height: 200px;
-  background: rgba(245, 166, 35, 0.15);
+  background: rgba(21, 101, 192, 0.15);
   border-radius: 50%;
 }
 
@@ -807,7 +807,7 @@ nav a:hover, nav a.active {
   justify-content: center;
   font-size: 1.3rem;
   flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(245, 166, 35, 0.35);
+  box-shadow: 0 4px 12px rgba(21, 101, 192, 0.35);
 }
 
 .why-item-content h4 {
@@ -877,7 +877,7 @@ nav a:hover, nav a.active {
 .gallery-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(10, 42, 94, 0.6);
+  background: rgba(11, 110, 49, 0.6);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -908,7 +908,7 @@ nav a:hover, nav a.active {
    ZONES D'INTERVENTION
    ============================================================ */
 .zones-section {
-  background: linear-gradient(135deg, var(--primary) 0%, #1a3f8f 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
   color: white;
 }
 
@@ -948,8 +948,8 @@ nav a:hover, nav a.active {
 }
 
 .zone-tag:hover {
-  background: rgba(245, 166, 35, 0.2);
-  border-color: rgba(245, 166, 35, 0.4);
+  background: rgba(21, 101, 192, 0.2);
+  border-color: rgba(21, 101, 192, 0.4);
 }
 
 .zone-tag .zone-dot {
@@ -971,7 +971,7 @@ nav a:hover, nav a.active {
 .map-icon {
   font-size: 5rem;
   margin-bottom: 16px;
-  filter: drop-shadow(0 4px 12px rgba(245, 166, 35, 0.4));
+  filter: drop-shadow(0 4px 12px rgba(21, 101, 192, 0.4));
 }
 
 .zones-map h3 {
@@ -1307,7 +1307,7 @@ nav a:hover, nav a.active {
 .form-group textarea:focus {
   border-color: var(--primary);
   background: var(--bg-white);
-  box-shadow: 0 0 0 3px rgba(10, 42, 94, 0.08);
+  box-shadow: 0 0 0 3px rgba(11, 110, 49, 0.08);
 }
 
 .form-group textarea {
@@ -1346,7 +1346,7 @@ nav a:hover, nav a.active {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 80% 20%, rgba(245, 166, 35, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(21, 101, 192, 0.15) 0%, transparent 50%),
     linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
   background-size: auto, 40px 40px, 40px 40px;
@@ -1361,7 +1361,7 @@ nav a:hover, nav a.active {
 .page-hero-icon {
   font-size: 3.5rem;
   margin-bottom: 16px;
-  filter: drop-shadow(0 4px 12px rgba(245, 166, 35, 0.5));
+  filter: drop-shadow(0 4px 12px rgba(21, 101, 192, 0.5));
 }
 
 .page-hero h1 {
@@ -1478,7 +1478,7 @@ nav a:hover, nav a.active {
   right: -30px;
   width: 150px;
   height: 150px;
-  background: rgba(245, 166, 35, 0.2);
+  background: rgba(21, 101, 192, 0.2);
   border-radius: 50%;
 }
 
@@ -1531,8 +1531,8 @@ nav a:hover, nav a.active {
 }
 
 .highlight-box {
-  background: linear-gradient(135deg, rgba(10, 42, 94, 0.05), rgba(26, 63, 143, 0.08));
-  border: 1px solid rgba(10, 42, 94, 0.12);
+  background: linear-gradient(135deg, rgba(11, 110, 49, 0.05), rgba(21, 122, 58, 0.08));
+  border: 1px solid rgba(11, 110, 49, 0.12);
   border-radius: var(--radius);
   padding: 24px;
   margin-top: 24px;
@@ -1595,7 +1595,7 @@ nav a:hover, nav a.active {
   right: -20px;
   width: 100px;
   height: 100px;
-  background: rgba(245, 166, 35, 0.2);
+  background: rgba(21, 101, 192, 0.2);
   border-radius: 50%;
 }
 
@@ -1607,7 +1607,7 @@ nav a:hover, nav a.active {
 
 .blog-category {
   display: inline-block;
-  background: rgba(245, 166, 35, 0.9);
+  background: rgba(21, 101, 192, 0.9);
   color: white;
   font-size: 0.75rem;
   font-weight: 700;
@@ -1873,7 +1873,7 @@ nav a:hover, nav a.active {
    FOOTER
    ============================================================ */
 footer {
-  background: #07193b;
+  background: #062b16;
   color: rgba(255, 255, 255, 0.8);
   padding: 60px 0 20px;
 }
